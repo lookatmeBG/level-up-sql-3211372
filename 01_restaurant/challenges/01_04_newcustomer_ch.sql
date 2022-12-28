@@ -4,3 +4,9 @@
 -- Anna Smith (asmith@samoca.org)
 -- 479 Lapis Dr., Memphis, TN
 -- Phone: (555) 555-1212; Birthday: July 21, 1973
+
+
+INSERT INTO CUSTOMERS (FirstName, LastName, Email, Address, City, State, Phone, Birthday)
+VALUES ('Anna', 'Smith', 'asmith@samoca.org', '479 Lapis Dr.', 'Memphis', 'TN', '555-555-1212', '1979-07-21' );
+
+SELECT * FROM CUSTOMERS ORDER BY CustomerID DESC;
