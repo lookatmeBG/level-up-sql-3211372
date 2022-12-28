@@ -5,3 +5,10 @@
 -- they plan to bring in their party.
 
 -- Hint: SQLite offers the INTEGER and REAL datatypes
+
+--drop table anniversary;
+CREATE TABLE anniversary
+(
+  CustomerID INTEGER NOT NULL REFERENCES CUSTOMERS(CustomerID),
+  PartySize INTEGER
+);
